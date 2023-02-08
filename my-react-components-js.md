@@ -380,5 +380,5 @@ export default App;
 
 测试成功：
 
-
+![image-20230208173512421](my-react-components-js.assets/image-20230208173512421.png)
 
