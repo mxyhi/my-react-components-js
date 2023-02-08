@@ -25,10 +25,11 @@ var getType = function getType(type) {
 var Button = function Button(props) {
   var size = props.size,
     type = props.type,
-    onClick = props.onClick;
+    onClick = props.onClick,
+    className = props.className;
   return /*#__PURE__*/React.createElement("button", _extends({}, props, {
     onClick: onClick,
-    className: "".concat(btnPrefix, " ").concat(sizePrefix + '-' + getSize(size), " ").concat(typePrefix + '-' + getType(type))
+    className: "".concat(btnPrefix, " ").concat(sizePrefix + '-' + getSize(size), " ").concat(typePrefix + '-' + getType(type), " ").concat(className)
   }), props.children);
 };
 

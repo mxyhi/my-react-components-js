@@ -23,14 +23,14 @@ const getSize = size => sizeEnum[size] || sizeEnum.default;
 const getType = type => typeEnum[type] || typeEnum.primary;
 
 const Button = props => {
-  const { size, type, onClick } = props;
+  const { size, type, onClick, className } = props;
   return (
     <button
       {...props}
       onClick={onClick}
       className={`${btnPrefix} ${sizePrefix + '-' + getSize(size)} ${
         typePrefix + '-' + getType(type)
-      }`}
+      } ${className}`}
     >
       {props.children}
     </button>
