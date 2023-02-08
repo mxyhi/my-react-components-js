@@ -1,7 +1,7 @@
 # react 组件开发
 
-[代码地址](https://github.com/mxyhi/my-react-components-js/):https://github.com/mxyhi/my-react-components-js/
-[效果预览地址](https://mxyhi.github.io/my-react-components-js/):https://mxyhi.github.io/my-react-components-js/
+- [代码地址](https://github.com/mxyhi/my-react-components-js/)：https://github.com/mxyhi/my-react-components-js/
+- [效果预览地址](https://mxyhi.github.io/my-react-components-js/)：https://mxyhi.github.io/my-react-components-js/
 
 ## 1. create-react-app 创建项目
 
