@@ -16,9 +16,13 @@
     "@babel/runtime": "^7.20.13",
     "react": "^18.2.0"
   },
-  "homepage": ".",
+  "homepage": "https://github.com/mxyhi/my-react-components-js/",
   "main": "./lib/index.js",
   "module": "./es/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mxyhi/my-react-components-js/"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
