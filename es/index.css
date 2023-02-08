@@ -1,0 +1,73 @@
+.my-btn {
+  outline: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+  color: #fff;
+}
+
+.my-btn-bg-warn{
+  background: #f1c40f;
+}
+
+.my-btn-bg-warn:hover{
+  background: #ecc00f;
+  color: #ebeff1;
+}
+
+.my-btn-bg-warn:active{
+  background: #e1b60c;
+  color: #d3d9dd;
+}
+
+.my-btn-bg-success{
+  background: #2ecc71;
+}
+
+.my-btn-bg-success:hover{
+  background: #2dc66d;
+  color: #ebeff1;
+}
+
+.my-btn-bg-success:active{
+  background: #27ae60;
+  color: #d3d9dd;
+}
+
+.my-btn-bg-primary{
+  background: #3498db;
+}
+
+.my-btn-bg-primary:hover{
+  background: #238acf;
+  color: #dce1e4;
+}
+
+.my-btn-bg-primary:active{
+  background: #2980b9;
+  color: #bdc3c7;
+}
+
+.my-btn-size-default {
+  padding: 6px 10px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.my-btn-size-small {
+  padding: 4px 6px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.my-btn-size-mini {
+  padding: 3px 4px;
+  font-size: 12px;
+  border-radius: 2px;
+}
+
+.my-btn-size-large {
+  padding: 8px 12px;
+  font-size: 18px;
+  border-radius: 5px;
+}
