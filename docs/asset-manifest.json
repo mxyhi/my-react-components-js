@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mxyhi/my-react-components-js/static/css/main.c7846e09.css",
-    "main.js": "/mxyhi/my-react-components-js/static/js/main.06ea59bf.js",
-    "static/js/787.c43e34f8.chunk.js": "/mxyhi/my-react-components-js/static/js/787.c43e34f8.chunk.js",
-    "index.html": "/mxyhi/my-react-components-js/index.html",
-    "main.c7846e09.css.map": "/mxyhi/my-react-components-js/static/css/main.c7846e09.css.map",
-    "main.06ea59bf.js.map": "/mxyhi/my-react-components-js/static/js/main.06ea59bf.js.map",
-    "787.c43e34f8.chunk.js.map": "/mxyhi/my-react-components-js/static/js/787.c43e34f8.chunk.js.map"
+    "main.css": "/my-react-components-js/static/css/main.c7846e09.css",
+    "main.js": "/my-react-components-js/static/js/main.ee98e36a.js",
+    "static/js/787.c43e34f8.chunk.js": "/my-react-components-js/static/js/787.c43e34f8.chunk.js",
+    "index.html": "/my-react-components-js/index.html",
+    "main.c7846e09.css.map": "/my-react-components-js/static/css/main.c7846e09.css.map",
+    "main.ee98e36a.js.map": "/my-react-components-js/static/js/main.ee98e36a.js.map",
+    "787.c43e34f8.chunk.js.map": "/my-react-components-js/static/js/787.c43e34f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c7846e09.css",
-    "static/js/main.06ea59bf.js"
+    "static/js/main.ee98e36a.js"
   ]
 }
