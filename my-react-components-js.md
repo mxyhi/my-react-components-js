@@ -383,4 +383,6 @@ export default App;
 
 测试成功：
 
+- [效果预览地址](https://mxyhi.github.io/my-react-components-js/)：https://mxyhi.github.io/my-react-components-js/
+
 ![image-20230208173512421](my-react-components-js.assets/image-20230208173512421.png)
