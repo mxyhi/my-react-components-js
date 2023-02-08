@@ -1,5 +1,8 @@
 # react 组件开发
 
+[代码地址](https://github.com/mxyhi/my-react-components-js/):https://github.com/mxyhi/my-react-components-js/
+[效果预览地址](https://mxyhi.github.io/my-react-components-js/):https://mxyhi.github.io/my-react-components-js/
+
 ## 1. create-react-app 创建项目
 
 ```sh
@@ -41,7 +44,7 @@ webpack compiled successfully
 mkdir ./src/components
 ```
 
-### 开发Button组件
+### 开发 Button 组件
 
 ```sh
 mkdir ./src/components/Button
@@ -61,67 +64,67 @@ mkdir ./src/components/Button
     border: none;
     color: #fff;
   }
-  
-  .my-btn-bg-warn{
+
+  .my-btn-bg-warn {
     background: #f1c40f;
   }
-  
-  .my-btn-bg-warn:hover{
+
+  .my-btn-bg-warn:hover {
     background: #ecc00f;
     color: #ebeff1;
   }
-  
-  .my-btn-bg-warn:active{
+
+  .my-btn-bg-warn:active {
     background: #e1b60c;
     color: #d3d9dd;
   }
-  
-  .my-btn-bg-success{
+
+  .my-btn-bg-success {
     background: #2ecc71;
   }
-  
-  .my-btn-bg-success:hover{
+
+  .my-btn-bg-success:hover {
     background: #2dc66d;
     color: #ebeff1;
   }
-  
-  .my-btn-bg-success:active{
+
+  .my-btn-bg-success:active {
     background: #27ae60;
     color: #d3d9dd;
   }
-  
-  .my-btn-bg-primary{
+
+  .my-btn-bg-primary {
     background: #3498db;
   }
-  
-  .my-btn-bg-primary:hover{
+
+  .my-btn-bg-primary:hover {
     background: #238acf;
     color: #dce1e4;
   }
-  
-  .my-btn-bg-primary:active{
+
+  .my-btn-bg-primary:active {
     background: #2980b9;
     color: #bdc3c7;
   }
-  
+
   .my-btn-size-default {
     padding: 6px 10px;
     font-size: 16px;
     border-radius: 4px;
   }
-  
+
   .my-btn-size-small {
     padding: 4px 6px;
     font-size: 14px;
     border-radius: 3px;
   }
-  
+
   .my-btn-size-mini {
     padding: 3px 4px;
     font-size: 12px;
     border-radius: 2px;
   }
-  
+
   .my-btn-size-large {
     padding: 8px 12px;
     font-size: 18px;
@@ -133,28 +136,28 @@ mkdir ./src/components/Button
 
   ```jsx
   import './styles/index.css';
-  
+
   const btnPrefix = 'my-btn';
   const sizePrefix = btnPrefix + '-size';
   const typePrefix = btnPrefix + '-bg';
-  
+
   const sizeEnum = {
     mini: 'mini',
     small: 'small',
     default: 'default',
     large: 'large',
   };
-  
+
   const typeEnum = {
     primary: 'primary',
     success: 'success',
     warn: 'warn',
   };
-  
+
   const getSize = size => sizeEnum[size] || sizeEnum.default;
-  
+
   const getType = type => typeEnum[type] || typeEnum.primary;
-  
+
   const Button = props => {
     const { size, type, onClick } = props;
     return (
@@ -169,14 +172,14 @@ mkdir ./src/components/Button
       </button>
     );
   };
-  
+
   export default Button;
   ```
 
 - index.js
 
   ```js
-  export {default as Button} from "./src/button"
+  export { default as Button } from './src/button';
   ```
 
 ### 新建组件出口文件并写入内容
@@ -189,12 +192,12 @@ echo '' >> ./src/components/index.js
 export { Button } from './button';
 ```
 
-## 配置rollup
+## 配置 rollup
 
 ### 安装相关插件
 
 ```sh
-npm i -D rollup @rollup/plugin-node-resolve @rollup/plugin-babel @babel/core @babel/cli @babel/preset-env @babel/preset-react rollup-plugin-postcss @babel/plugin-transform-runtime @rollup/plugin-terser 
+npm i -D rollup @rollup/plugin-node-resolve @rollup/plugin-babel @babel/core @babel/cli @babel/preset-env @babel/preset-react rollup-plugin-postcss @babel/plugin-transform-runtime @rollup/plugin-terser
 ```
 
 ### 新建配置文件 根目录
@@ -314,11 +317,11 @@ function clearDir(path) {
 
 ## 打包
 
-``` sh
+```sh
 npx rollup -c
 ```
 
-会生成三个文件夹lib es dist
+会生成三个文件夹 lib es dist
 
 /package.json 中新增
 
@@ -349,7 +352,7 @@ npm publish
 
 安装你自己发布的包名 最好不要换源安装，其他源有延时
 
-``` sh
+```sh
 npm i my-react-components-js
 ```
 
@@ -381,4 +384,3 @@ export default App;
 测试成功：
 
 ![image-20230208173512421](my-react-components-js.assets/image-20230208173512421.png)
-
